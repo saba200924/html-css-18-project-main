@@ -14,13 +14,11 @@ html{
 .header{
     width: 100%;
     height: 60px;
-    /* background-color: lime; */
     display: flex;
 }
 .header-maindiv{
     width: 100%;
     height: 60px;
-    /* background-color: gold; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -59,7 +57,6 @@ html{
 .common-footer{
     height: 80vh;
     width: 100%;
-    /* background-color: blanchedalmond; */
     margin-top: 150px;
     display: flex;
     flex-direction: column;
@@ -81,7 +78,6 @@ html{
 .common-footer-parent{
     width: 100%;
     height: 57vh;
-    /* background-color: brown; */
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -90,7 +86,6 @@ html{
     width: 50%;
     height: 57vh;
     min-width: 350px;
-    /* background-color: blue; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,11 +100,11 @@ html{
     width: 50%;
     min-width: 290px;
     height: 35vh;
-    /* background-color: burlywood; */
     display: flex;
     flex-direction: column;
     margin-left: 50px;
     justify-content: space-between;
+    padding: 15px;
 }
 .common-footer-child1 form #email2{
     height: 40px;
@@ -156,17 +151,16 @@ html{
     width: 25%;
     min-width: 290px;
     height: 57vh;
-    /* background-color: antiquewhite; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     border-right: 1.5px solid rgb(76, 252, 15);
     flex-grow: 1;
+    padding: 15px;
 }
 .common-footer-child2 p{
     width: 170px;
     height: 70px;
-    /* background-color: blueviolet; */
     margin-left: 50px;
     color: rgb(76, 252, 15);
 }
@@ -174,14 +168,12 @@ html{
     width: 250px;
     min-width: 250px;
     height: 70px;
-    /* background-color: blueviolet; */
-    margin-left: 40px;
+    margin-left: 20px;
     color: rgb(76, 252, 15);
 }
 .common-footer-last{
     width: 100%;
     height: 8vh;
-    /* background-color: aqua; */
     display: flex;
     border-top: 1.5px solid rgb(76, 252, 15);
 }
@@ -198,7 +190,7 @@ html{
     justify-content: end;
     align-items: center;
     margin-right: 100px;
-
+    padding: 15px;
 }
 .common-footer-last .common-footer-last-right p{
     color: rgb(76, 252, 15);
@@ -207,10 +199,6 @@ html{
     color: rgb(76, 252, 15);
     text-decoration: underline;
 }
-
-
-
-
 
 
 @media screen and (max-width:366px) {
@@ -235,14 +223,6 @@ html{
 
 
 }
-
-
-
-
-
-
-
-
 
 @media screen and (max-width:470px) {
     .header-left{

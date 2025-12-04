@@ -1,0 +1,117 @@
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+section .h1-div{
+    width: 100%;
+    height: 15vh;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    overflow: hidden;
+}
+section .h1-div h1{
+    color: rgb(76, 252, 15);
+    animation: slideup 2s forwards;
+}
+section .section1-parent{
+    width: 100%;
+    display: flex;
+    border-top: 1.5px solid rgb(76, 252, 15);
+    border-bottom: 1.5px solid rgb(76, 252, 15);
+    flex-wrap: wrap;
+}
+section .section1-parent-img{
+    width: 50%;
+    height: 85vh;
+    background-image: url(../images/about-us-guy.avif);
+    background-position: center;
+    background-size: cover;
+    border-right: 1.5px solid rgb(76, 252, 15);
+    flex-grow: 1;
+    min-width: 600px;
+}
+section .section1-parent-right{
+    width: 50%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    flex-grow: 1;
+    min-width: 600px;
+
+}
+section .section1-parent-right .section1-parent-right-child{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 0 30px;
+}
+section .section1-parent-right .section1-parent-right-child p:nth-child(2){
+    color: rgb(76, 252, 15);
+    font-size: 35px;
+    animation: slideup 3s forwards;
+}
+section .section1-parent-right .section1-parent-right-child p:nth-child(1){
+    color: rgb(76, 252, 15);
+    font-size: 27px;
+    animation: slideup 2s forwards;
+}
+
+@keyframes slideup {
+    from{
+        opacity: 0;
+        transform: translateY(120%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width:620px) {
+    section .section1-parent-img{
+        min-width: 310px;
+    }
+    section .section1-parent-right{
+        min-width: 310px;
+    }
+}
+@media screen and (max-width:1200px) {
+    section .section1-parent-img{
+    height: 40vh;
+    }
+}
+@media screen and (max-width:710px){
+    section .h1-div{
+    font-size: x-large;
+    padding-left: 0;
+}
+}
+@media screen and (max-width:596px){
+    section .section1-parent-right .section1-parent-right-child{
+        width: 100%;
+        padding: 0;
+    }
+    section .section1-parent-right .section1-parent-right-child p:nth-child(2){
+    font-size: 27px;
+    }
+    section .section1-parent-right .section1-parent-right-child p:nth-child(1){
+    font-size: 23px;
+    }
+    section .section1-parent-right{
+        padding-left: 10px;
+        min-width: 290px;
+    }
+    section .section1-parent-img{
+        min-width: 290px;
+    }
+}
+@media screen and (max-width:484px){
+    section .h1-div{
+    font-size: large;
+}
+}

@@ -337,6 +337,7 @@
     border-top: 1px solid rgb(76, 252, 15);
     border-bottom: 1px solid rgb(76, 252, 15);
     border-left: 1px solid rgb(76, 252, 15);
+    padding: 15px;
 }
 .section3 .section3-child1 .section3-child1-child{
     /* width: 310px;

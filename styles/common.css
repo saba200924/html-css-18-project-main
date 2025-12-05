@@ -201,7 +201,7 @@ html{
 }
 
 
-@media screen and (max-width:366px) {
+@media screen and (max-width:596px) {
     .common-footer-child1{
         width: 100%;
         min-width: 300px;

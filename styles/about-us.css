@@ -49,11 +49,12 @@ section .section1-parent-right .section1-parent-right-child{
     flex-direction: column;
     gap: 100px;
     padding: 0 30px;
+    overflow: hidden;
 }
 section .section1-parent-right .section1-parent-right-child p:nth-child(2){
     color: rgb(76, 252, 15);
     font-size: 35px;
-    animation: slideup 3s forwards;
+    animation: slideup 2s forwards;
 }
 section .section1-parent-right .section1-parent-right-child p:nth-child(1){
     color: rgb(76, 252, 15);

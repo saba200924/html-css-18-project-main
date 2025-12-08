@@ -1,9 +1,10 @@
-/* #region main */
+@font-face {
+    font-family: myfont;
+    src: url(../fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
 .main-maindiv{
     width: 100%;
-    /* height: 75vh; */
     border-bottom: 1px solid rgb(76, 252, 15);
-    /* background-color: yellow; */
     margin-top: -60px;
     display: flex;
     flex-wrap: wrap;
@@ -20,7 +21,6 @@
 .main-left{
     width: 50%;
     height: 75vh;
-    /* background-color: aliceblue; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,21 +29,17 @@
 .main-left .main-left-parent{
     width: 450px;
     min-width: 450px;
-    /* height: 400px; */
-    /* background-color: brown; */
     overflow: hidden;
 }
 .main-left .main-left-parent .main-left-child1{
     width: 100%;
     height: 45px;
-    /* background-color: orange; */
     display: flex;
     gap: 7px;
 }
 .main-left .main-left-parent .main-left-child1 .main-left-child1-left{
     width: 390px;
     height: 45px;
-    /* background-color: blueviolet; */
     border: 1.5px solid white;
     border-radius: 11px;
     display: flex;
@@ -67,7 +63,6 @@
 .main-left .main-left-parent .main-left-child2{
     width: 100%;
     height: 230px;
-    /* background-color: cornflowerblue; */
     border: 1.5px solid white;
     border-radius: 11px;
     margin-top: 5px;
@@ -83,7 +78,6 @@
 }
 .main-left .main-left-parent .main-left-child3{
     width: 100%;
-    /* background-color: darkmagenta; */
     height: 130px;
     margin-top: 5px;
     display: flex;
@@ -92,7 +86,6 @@
 .main-left .main-left-parent .main-left-child3 .main-left-child3-left{
     width: 40%;
     height: 130px;
-    /* background-color: darkkhaki; */
     background-image: url("../images/pointer.jpeg");
     background-position: center;
     background-size: cover;
@@ -102,7 +95,6 @@
 .main-left .main-left-parent .main-left-child3 .main-left-child3-right{
     width: 58%;
     height: 130px;
-    /* background-color: dodgerblue; */
     border: 1.5px solid white;
     border-radius: 11px;
     padding: 15px 5px;
@@ -135,15 +127,9 @@
     color: rgb(76, 252, 15);
     transition: 0.75s;
 }
-
-
-/* #endregion main */
-
-/* #region section1 */
 .section1{
     width: 100%;
     height: 120vh;
-    /* background-color: blue; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -151,7 +137,6 @@
 .section-div{
     width: 60%;
     height: 60vh;
-    /* background-color: blueviolet; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -216,15 +201,10 @@
     background-position: center;
     background-size: cover;
 }
-/* #endregion section1 */
-
-/* #region section2 */
 
 
 .section2{
     width: 100%;
-    /* height: 70vh; */
-    /* background-color: brown; */
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
@@ -248,7 +228,6 @@
 }
 .section2 .section2-top .section2-top-left{
     width: 50%;
-    /* height: 22vh; */
     min-width: 370px;
     border: 0.5px solid rgb(76, 252, 15);
     display: flex;
@@ -267,13 +246,11 @@
     margin-top: 30px;
     font-size: 40px;
     margin-left: 20px;
-    /* background-color: aliceblue; */
     width: 240px;
     color: rgb(76, 252, 15);
 }
 .section2 .section2-top .section2-top-right{
     width: 50%;
-    /* height: 22vh; */
     min-width: 320px;
     height: 22vh;
     border: 1px solid rgb(76, 252, 15);
@@ -301,14 +278,8 @@
     animation: panimation 1.5s forwards;
 
 }
-/* #endregion section2 */
-
-/* #region section3 */
-
 .section3{
     width: 100%;
-    /* height: 50vh; */
-    /* background-color: blanchedalmond; */
 }
 .section3 .section3-h1{
     font-size: xx-large;
@@ -321,14 +292,12 @@
 .section3 .section3-parent{
     width: 100%;
     height: 40vh;
-    /* background-color: blueviolet; */
     display: flex;
     flex-wrap: wrap;
 }
 .section3 .section3-child1{
     width: 33.2%;
     height: 40vh;
-    /* background-color: aqua; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -340,10 +309,7 @@
     padding: 15px;
 }
 .section3 .section3-child1 .section3-child1-child{
-    /* width: 310px;
-    min-width: 310px; */
     height: 160px;
-    /* background-color: brown; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -367,9 +333,6 @@
         animation: panimation 1.5s forwards;
 
 }
-/* #endregion section3 */
-
-/* #region section4 */
 .section4{
     width: 100%;
     display: flex;
@@ -402,7 +365,6 @@
     min-width: 300px;
     color: rgb(76, 252, 15);
     text-align: center;
-
 }
 .section4:hover .section4-parent .section4-child h1{
     animation: panimation 1.5s forwards;
@@ -441,16 +403,8 @@
 .section4 .section4-parent:nth-child(4){
     border-bottom: none;
 }
-
-/* #endregion section4 */
-
-/* #region footer */
-
-
 .footer{
     width: 100%;
-    /* height: 100vh; */
-    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -458,7 +412,6 @@
 .footer .footer-up{
     width: 100%;
     height: 20vh;
-    /* background-color: bisque; */
     display: flex;
     flex-direction: column;
 }
@@ -476,8 +429,6 @@
 }
 .footer .footer-down{
     width: 45%;
-    /* height: 100vh; */
-    /* background-color: blueviolet; */
     border: 1px solid rgb(76, 252, 15);
     border-radius: 30px;
     display: flex;
@@ -487,7 +438,6 @@
 .footer-down-child{
     width: 100%;
     height: 15vh;
-    /* background-color: blue; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -542,8 +492,6 @@
     color: rgb(76, 252, 15);
     transition: 0.75s;
 }
-
-/* #endregion footer */
 
 
 

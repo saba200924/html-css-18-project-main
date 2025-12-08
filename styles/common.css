@@ -1,3 +1,7 @@
+@font-face {
+    font-family: myfont;
+    src: url(../fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
 *{
     padding: 0;
     margin: 0;
@@ -5,6 +9,7 @@
     color: black;
     text-decoration: none;
     list-style: none;
+        font-family: myfont;
 }
 html{
     background-color: rgb(17, 17, 17);
@@ -116,9 +121,7 @@ html{
     padding-left: 10px;
     color: rgb(76, 252, 15);
 }
-.common-footer-child1 form #email2
-
- :focus{
+.common-footer-child1 form #email2:focus{
     border: 1.7px solid rgb(76, 252, 15);
 }
 .common-footer-child1 form label{
@@ -164,7 +167,7 @@ html{
     margin-left: 50px;
     color: rgb(76, 252, 15);
 }
-.common-footer-child2 a{
+.common-footer-child2 p{
     width: 250px;
     min-width: 250px;
     height: 70px;

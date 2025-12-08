@@ -9,7 +9,6 @@
 .mainsection{
     width: 50%;
     height: 80vh;
-    /* background-color: blue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +28,6 @@
 .twolines{
     width: 40px;
     height: 40px;
-    /* background-color: darkgray; */
     display: flex;
     position: relative;
     transform: rotate(45deg);

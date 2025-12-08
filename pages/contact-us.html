@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../styles/common.css">
-    <link rel="stylesheet" href="../styles/about-us.css">
-    <link rel="stylesheet" href="../styles/menu.css">
+    <link rel="stylesheet" href="../styles/contact-us.css">
 </head>
 <body>
     
@@ -26,25 +25,43 @@
 
 </header>
 
-
-
-<section class="section1">
-    <div class="h1-div">
-        <h1>Your Local Handyman</h1>
+<footer class="footer">
+    <div class="footer-up">
+        <h1>Contact Us</h1>
     </div>
-    <div class="section1-parent">
-        <div class="section1-parent-img"></div>
-        <div class="section1-parent-right">
-            <div class="section1-parent-right-child">
-                <p>Expert Home Solutions</p>
-                <p>M. Singh is your go-to local handyman for all your home repair and maintenance needs. With a focus on quick service and immediate solutions, we excel in fixing everything from leaky taps to garden issues. Count on us for fast response times and efficient results.</p>
-            </div>
+    <div id="footer-down" class="footer-down">
+    <form action="">
+        <div class="footer-down-child">
+                <label for="name">First name *</label>
+                <input type="text" required>
         </div>
+                <div class="footer-down-child">
+                <label for="last-name">Last name *</label>
+                <input type="text" required>
+        </div>
+                <div class="footer-down-child">
+                <label for="email">Email *</label>
+                <input type="email" name="" id="email" required>
+        </div>
+                <div class="footer-down-child">
+                <label for="phone">Phone</label>
+                <input type="number" min="1" name="" id="phone">
+        </div>
+                <div class="footer-down-child">
+                <label for="message">Message</label>
+                <textarea name="" id="message"></textarea>
+
+        </div>
+                <div class="footer-down-child">
+                    <button type="submit">Submit</button>
+
+        </div>
+    </form>
+        
+
     </div>
-</section>
 
-
-
+</footer>
 
 <footer class="common-footer">
     <div class="common-footer-a">
@@ -87,8 +104,6 @@
 
     </div>
 </footer>
-
-
 
 
 </body>
